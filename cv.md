@@ -6,10 +6,10 @@
   * Переквалификация на программиста.
   * Создание программ, которые востребованы.
 4. Skiils:
-  * Java (*Elementary level*)
-  * C#,C++ (*Elementary level*)
-  * JS (*Elementary level*)
-  * HTML/CSS (*Elementary level*)
+  * ***Java*** (*Elementary level*)
+  * ***C#,C++*** (*Elementary level*)
+  * ***JS*** (*Elementary level*)
+  * ***HTML/CSS*** (*Elementary level*)
 5. Example code:
   * [java](https://bitbucket.org/Zotov_sv/pensnew/src)
 6. Простые программы для автоматизации действий на работе:
