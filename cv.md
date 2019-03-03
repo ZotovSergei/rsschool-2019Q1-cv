@@ -5,7 +5,7 @@
 3. Summary
   * Переквалификация на программиста.
   * Создание программ, которые востребованы.
-4. Skiils:
+4. Skills:
   * ***Java*** (*Elementary level*)
   * ***C#,C++*** (*Elementary level*)
   * ***JS*** (*Elementary level*)
