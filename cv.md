@@ -11,10 +11,10 @@
   * ***JS*** (*Elementary level*)
   * ***HTML/CSS*** (*Elementary level*)
 5. Example code:
-  * [java](https://bitbucket.org/Zotov_sv/pensnew/src)
+  * [java](https://bitbucket.org/Zotov_sv/pensnew/src)gi
 6. Простые программы для автоматизации действий на работе:
   * **java** - Программа для обработки xml файлов
   * **С#** - Программа для работы с Active Directory и SQL
   * **JS** - Отправка POST и GET запросов на веб сервердля автоматического заполнения полей.
-7. среднее профессиональное
+7. Cреднее профессиональное
 8. Beginner
