@@ -1,0 +1,232 @@
+html,body {
+    height: 100%;
+    
+}
+
+body {
+    position: relative;
+    width: 980px;
+    max-width: 1024px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 5px 2px;
+    
+    /* background-color: bisque; */
+}
+
+
+
+/* !Article block */
+.article {
+    position: relative;
+    width: 100%;
+    /* background-color: chartreuse; */
+    height: 300px;
+}
+.article__name {
+    width: 1024px;
+    right: 10px;
+    
+}
+.article__name__fio {
+    /* background-color: beige; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50% -50%);
+    
+}
+
+.article__name__firstname {
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;    
+    
+}
+.article__name__lastname {
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+}
+.article__name__image>img {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    /* background: url("../assets/avatars.jpg") no-repeat center center; */
+    /* border: 1px dashed; */
+    border-radius: 100%;
+}
+.article__contact {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0 15px;
+}
+.article__contact__title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+.article__contact__li__1 {
+    margin-top: 10px;
+}
+.article__contact__li__1 {
+    margin-bottom: 1px;
+}
+/* ! Content */
+
+.content__description {
+    position: relative;
+    /* background-color: aliceblue; */
+}
+/* ! Summary block */
+.summary {
+    display: table;
+    /* background-color: cadetblue; */
+    margin: 5px;
+    margin-top: 50px;
+    
+}
+.summary__title {
+    display: table-cell;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    
+}
+.summary__list {
+    display: table-cell;
+    text-align: center;
+    width: 100%;
+}
+/* ! skiils  block*/
+
+.skills {
+    display: table;
+    /* background-color: cadetblue; */
+    margin: 5px;
+    
+}
+.skills__title {
+    display: table-cell;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.skills__list {
+    display: table-cell;
+    text-align: center;
+    width: 100%;
+}
+/* ! linkCode section */
+
+.linkCode {
+    display: table;
+    /* background-color: cadetblue; */
+    margin: 5px;
+}
+.linkCode__title {
+    display: table-cell;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.linkCode__list {
+    display: table-cell;
+    text-align: center;
+    width: 100%;
+}
+/* ! experience */
+
+.experience {
+    display: table;
+    /* background-color: cadetblue; */
+    margin: 5px
+    
+}
+.experience__title {
+    display: table-cell;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    vertical-align: middle;
+}
+.experience__list {
+    display: table-cell;
+    text-align: center;
+    width: 100%;
+}
+/* ! education */
+
+.education {
+    display: table;
+    /* background-color: cadetblue; */
+    margin: 5px;
+}
+.education__title {
+    display: table-cell;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.education__list {
+    display: table-cell;
+    text-align: center;
+    width: 100%;
+}
+/* ! english */
+
+.english {
+    display: table;
+    /* background-color: cadetblue; */
+    margin: 5px;
+    
+}
+.english__title {
+    display: table-cell;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    vertical-align: middle;
+}
+.english__list {
+    display: table-cell;
+    text-align: center;
+    width: 100%;
+}
+
+.title {
+    /* background-color: beige; */
+    
+    display: inline-block;
+    text-align: right;   
+    height: 100%;
+    width: 300px;
+    /* background-color: antiquewhite; */
+    
+}
+.list {
+    /* background-color: aliceblue; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    margin: 0 10px;
+    
+}
+.list:hover {
+    box-shadow: 0 0 5px 2px;    
+}
+/* .content {
+    background-color: azure;
+} */
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    /* box-sizing: border-box; */
+    height: 30px;
+    /* background-color: aquamarine; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex-grow: 1;
+}
